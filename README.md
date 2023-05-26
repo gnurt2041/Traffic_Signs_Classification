@@ -14,10 +14,10 @@ Some images of the dataset:<br />
 ## The dataset of object detection task( sefl-collected dataset):
 **Gooogle Drive:** https://drive.google.com/file/d/1SSqYsNNb6eghhFjuwKTGEG4UlujuWT8Z/view?usp=sharing
 
-**Environment:** Google Colab
+# Environment:** Google Colab
 
 # The directory structure:
-### CLassification task:
+### Classification task:
 ```
 Traffic_Signs_Classification/
 	├── signsdata/
