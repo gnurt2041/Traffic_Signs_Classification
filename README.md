@@ -1,7 +1,7 @@
-# Traffic Signs Classification using CNN
+# Traffic Signs Classification and Detection
 The objective of the project is to detect traffic signs using image dataset. Convolutional Neural Network is used to classify the images. The output class consists of 43 different traffic signs.
 
-I update this project to a traffic signs and light recognition using YOLOv7. The used model is YOLOv7-tiny.
+I update this project to a traffic signs and lights recognition using YOLOv7. The used model is YOLOv7-tiny. The dataset of this task is much smaller, it consist of 24 different traffic signs and lights
 
 # Dataset Information
 ## The dataset of classification task
