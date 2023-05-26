@@ -56,11 +56,8 @@ Traffic_Signs_Classification/
 I will update the way of data collection in the future. Currently, you need to do some configuration so that the model knows some information of the dataset. Use data_config.py to do that if you have the directory of the dataset the same as mine.
 
 # Neural Network
-
 <li>CNN Architecture of Classification task:
-
 <h2><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/plot_cnn.png" width="700"><h2>
-
 # Result
 ## Classification task:
 <h3><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/result.png" width="700"><h3>
