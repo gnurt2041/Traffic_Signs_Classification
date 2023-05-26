@@ -71,4 +71,4 @@ I will update the way of data collection in the future. Currently, you need to d
 Metrics:
 <h3><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/results.png" width="700"><h3>
 
-You can download the weights of model (best.pt) and use normally.
+You can download and use the weights of model (best.pt).
