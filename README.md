@@ -1,25 +1,44 @@
 # Traffic Signs Classification using CNN
 The objective of the project is to detect traffic signs using image dataset. Convolutional Neural Network is used to classify the images. The output class consists of 43 different traffic signs.
 
-# Dataset Information
+I update this project to a traffic signs and light recognition using YOLOv7. The used model is YOLOv7-tiny.
 
+# Dataset Information
+## The dataset of classification task
 The training archive contains 43 different type of traffic signs.<br />
 Some images of the dataset:<br />
 <img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/dataset.jpg" width="700">
 
 **Paperwithcode dataset link:** https://paperswithcode.com/dataset/gtsrb
 
+## The dataset of object detection task( sefl-colledted dataset):
+**Gooogle Drive:** https://drive.google.com/file/d/1SSqYsNNb6eghhFjuwKTGEG4UlujuWT8Z/view?usp=sharing
+
 **Environment:** Google Colab
 
-**The directory structure:**
+# The directory structure:
+### CLassification task:
 ```
 Traffic_Signs_Classification/
 	├── signsdata/
-        ├── train.p
-        ├── test.p
-        └──  valid.p
+		├── train.p
+		├── test.p
+		└──  valid.p
   └──main/
         └── traffic_signs_classification.ipynb
+```
+### Object Detection task:
+```
+Traffic_Signs_Classification/
+	├── dataset/
+		├── train/
+		      ├── images/
+		      └── labels/
+		└──  valid/
+		      ├── images/
+		      └── labels/
+  └──main/
+        └── road_sign_detection.ipynb
 ```
 # Libraries
 
@@ -29,16 +48,24 @@ Traffic_Signs_Classification/
 <li>numpy
 <li>seaborn
 <li>tensorflow
+<li>torch
 <li>scikit-learn
 <li>livelossplot
 
 # Neural Network
 
-<li>CNN Architecture
+<li>CNN Architecture of Classification task:
 
 <h2><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/plot_cnn.png" width="700"><h2>
 
 # Result
+## Classification task:
 <h3><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/result.png" width="700"><h3>
 
-**Accuracy:** ~96.65%( with class_weight ), look the above code to more detail
+**Accuracy of classification task:** ~96.65%( with class_weight ), look the above code to more detail
+## Object detection task:
+<h3><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/001683.jpg" width="700"><h3>
+Metrics:
+<h3><img align='center' src="https://github.com/gnurt2041/Traffic_Signs_Classification/blob/main/image/results.png" width="700"><h3>
+
+You can download the weights of model (best.pt) and use normally.
