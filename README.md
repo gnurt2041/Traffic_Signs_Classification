@@ -11,7 +11,7 @@ Some images of the dataset:<br />
 
 **Paperwithcode dataset link:** https://paperswithcode.com/dataset/gtsrb
 
-## The dataset of object detection task( sefl-colledted dataset):
+## The dataset of object detection task( sefl-collected dataset):
 **Gooogle Drive:** https://drive.google.com/file/d/1SSqYsNNb6eghhFjuwKTGEG4UlujuWT8Z/view?usp=sharing
 
 **Environment:** Google Colab
@@ -51,6 +51,9 @@ Traffic_Signs_Classification/
 <li>torch
 <li>scikit-learn
 <li>livelossplot
+
+# Setup of YOLO model:
+I will update the way of data collection in the future. Currently, you need to do some configuration so that the model knows some information of the dataset. Use data_config.py to do that if you have the directory of the dataset the same as mine.
 
 # Neural Network
 
